@@ -7,28 +7,28 @@ import Proj6 from '../assets/proj6.png'
 
 export const projectList = [
   {
-    name: 'Project 1',
+    name: 'Crypto Tracker',
+    image: Proj5,
+    skills: 'add skills'
+  },
+  {
+    name: 'Wordle',
     image: Proj1,
     skills: 'add skills'
   },
   {
-    name: 'Project 2',
+    name: 'Chat App',
     image: Proj2,
     skills: 'add skills'
   },
   {
-    name: 'Project 3',
+    name: 'To-Do App',
     image: Proj3,
     skills: 'add skills'
   },
   {
-    name: 'Project 4',
+    name: 'Calendar',
     image: Proj4,
-    skills: 'add skills'
-  },
-  {
-    name: 'Project 5',
-    image: Proj5,
     skills: 'add skills'
   },
   {
