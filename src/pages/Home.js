@@ -20,9 +20,11 @@ function Home() {
         <div className='prompt'>
           <p>A software developer with a passion for learning and creating</p>
           <div className='icon-btns'>
-            <button className='btn' onClick={() => {console.log('click')}} type='button'>
-              <LinkedInIcon />
-            </button>
+            <form action="">
+              <button className='btn' type='submit' formAction='https://www.linkedin.com/in/aaron-xiang-63004b198/' formTarget='_blank'>
+                <LinkedInIcon />
+              </button>
+            </form>
             <form action="">
               <button className='btn' type='submit' formAction='https://github.com/aaron-xiang' formTarget='_blank'>
                 <GithubIcon />
@@ -33,6 +35,12 @@ function Home() {
             </button>
           </div>
         </div>
+        <div className='scroll-container'>
+        <div className='scroll-div'>
+          <div className='scroll-text'>Scroll</div>
+          <div className='scroll-arrow'>ᐅ</div>
+        </div>
+      </div>
       </div>
       <div className='skills'>
         <h1>Skills</h1>

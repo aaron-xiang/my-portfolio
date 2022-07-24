@@ -48,6 +48,34 @@
   cursor: pointer;
 }
 
+.scroll-container {
+  padding: .5rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.scroll-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: .2rem;
+  font-size: x-large;
+  animation: bounce .8s infinite alternate;
+}
+
+.scroll-arrow {
+  transform: rotate(90deg);
+}
+
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+
 .skills {
   font-size: 35px;
   width: 100%;
@@ -85,6 +113,8 @@
   background-color: black;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 5px 5px grey;
+
 }
 
 .skills-left-header, .skills-right-header {
