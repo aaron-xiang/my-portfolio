@@ -4,6 +4,10 @@ import Proj3 from '../assets/proj3.webp'
 import Proj4 from '../assets/proj4.webp'
 import Proj5 from '../assets/proj5.jpeg'
 import Proj6 from '../assets/proj6.png'
+import wordle from '../assets/wordle.png'
+import todo from '../assets/todo.png'
+import calendar from '../assets/calendar.png'
+import chat from '../assets/chat.png'
 
 export const projectList = [
   {
@@ -13,22 +17,22 @@ export const projectList = [
   },
   {
     name: 'Wordle',
-    image: Proj1,
+    image: wordle,
     skills: 'add skills'
   },
   {
     name: 'Chat App',
-    image: Proj2,
+    image: chat,
     skills: 'add skills'
   },
   {
     name: 'To-Do App',
-    image: Proj3,
+    image: todo,
     skills: 'add skills'
   },
   {
     name: 'Calendar',
-    image: Proj4,
+    image: calendar,
     skills: 'add skills'
   },
   {
